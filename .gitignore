@@ -42,5 +42,11 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
+# Plataforms
+/linux/
+/macos/
+/web/
+/windows/
+
 # Others
 /images/showcase/showcase_layout.xcf
