@@ -18,36 +18,6 @@ class AlphabetPage extends StatelessWidget {
           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
         ),
       ),
-      drawer: Drawer(
-        child: ListView(
-          children: [
-            ListTile(
-              leading: const Icon(Icons.abc_rounded),
-              title: const Text("Trainer"),
-              onTap: () {
-                var currentRoute = ModalRoute.of(context)?.settings.name;
-                if (currentRoute == "/") {
-                  return;
-                }
-
-                Navigator.pop(context);
-              },
-            ),
-            ListTile(
-              leading: const Icon(Icons.model_training),
-              title: const Text("Alphabet"),
-              onTap: () {
-                var currentRoute = ModalRoute.of(context)?.settings.name;
-                if (currentRoute == "/alphabet") {
-                  return;
-                }
-
-                Navigator.pushNamed(context, "/alphabet");
-              },
-            ),
-          ],
-        ),
-      ),
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: Center(
