@@ -1,16 +1,15 @@
-# sga_trainer
+<p align="center">
+    <h1>Standard Galactic Alphabet Trainer</h1>
+</p>
 
-A new Flutter project.
+## Description
 
-## Getting Started
+This app helps you reading the standard galactic alphabet, giving you a random word pair and waiting for you to translate, it also have a page to see the alphabet in case you are not familiarized
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+    <img alt="Home Page" src="images/showcase/showcase_home.png" width="45%" />
+    &nbsp;&nbsp;
+    <img alt="Home Page" src="images/showcase/showcase_alphabet.png" width="45%" />
+</p>
