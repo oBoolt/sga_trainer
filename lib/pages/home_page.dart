@@ -31,12 +31,26 @@ class _HomePageState extends State<HomePage> {
             ListTile(
               leading: const Icon(Icons.abc_rounded),
               title: const Text("Trainer"),
-              onTap: () {},
+              onTap: () {
+                var currentRoute = ModalRoute.of(context)?.settings.name;
+                if (currentRoute == "/") {
+                  return;
+                }
+
+                Navigator.pop(context);
+              },
             ),
             ListTile(
               leading: const Icon(Icons.model_training),
               title: const Text("Alphabet"),
-              onTap: () {},
+              onTap: () {
+                var currentRoute = ModalRoute.of(context)?.settings.name;
+                if (currentRoute == "/alphabet") {
+                  return;
+                }
+
+                Navigator.pushNamed(context, "/alphabet");
+              },
             ),
           ],
         ),
