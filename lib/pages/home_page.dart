@@ -22,7 +22,23 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: theme.colorScheme.inversePrimary,
         title: const Text(
           "Standard Galactic Alphabet Trainer",
-          style: TextStyle(fontWeight: FontWeight.bold),
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+        ),
+      ),
+      drawer: Drawer(
+        child: ListView(
+          children: [
+            ListTile(
+              leading: const Icon(Icons.abc_rounded),
+              title: const Text("Trainer"),
+              onTap: () {},
+            ),
+            ListTile(
+              leading: const Icon(Icons.model_training),
+              title: const Text("Alphabet"),
+              onTap: () {},
+            ),
+          ],
         ),
       ),
       body: Padding(
