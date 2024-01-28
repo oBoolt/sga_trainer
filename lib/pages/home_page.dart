@@ -51,12 +51,14 @@ class _HomePageState extends State<HomePage> {
                 child: Center(
                   child: Text(
                     "${_wordPair.first} ${_wordPair.second}",
+                    textAlign: TextAlign.center,
                     style: const TextStyle(
                       fontFamily: "SGA",
                       fontSize: 36,
                       color: Colors.white,
                       wordSpacing: 12,
                       letterSpacing: 12,
+                      height: 2,
                     ),
                   ),
                 ),
